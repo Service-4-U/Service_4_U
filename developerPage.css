@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('Service4U.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.header > h4, h1 {
+    text-transform: uppercase;
+}
+
+.header > h1 {
+    color: #0d7d47;
+}
+
+.description-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 21.5rem;
+}
+
+.description-cards > div {
+    height: 90%;
+    width: 15rem;
+    border-radius: 3px;
+    box-shadow: 3px 0 7px #3f3f3f;
+}
+
+.description-cards > .bottom-card {
+    margin-top: 10rem;
+}
+
+.description-cards > .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.card > .icon {
+    height: 60px;
+    width: 60px;
+    background-image: linear-gradient(120deg, #0d7d47, #0097b2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon > i {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.card > h3 {
+    text-transform: capitalize;
+    margin-bottom: 0.7rem;
+}
+
+.card > p {
+    line-height: 1.2rem;
+}
+
+.card > h3, p {
+    text-align: center;
+    width: 100%;
+}
